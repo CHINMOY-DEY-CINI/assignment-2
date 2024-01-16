@@ -320,3 +320,346 @@
 }
 
 
+
+
+
+
+/* choose-section */
+
+.choose-section{
+    text-align: center;
+    padding:30px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.choose-section > p{
+    color: gray;
+    width:600px;
+    text-align: center;
+    margin:20px 0px;
+}
+
+
+.choose-option{
+    display: grid;
+    grid-template-columns:repeat(2 , 1fr);
+    gap:10px;
+}
+
+
+.hotels{
+    background-color:rgba(0, 255, 255, 0.295);
+    text-align: left;
+    padding:40px;
+    width:85%;
+    border-radius:8px;
+    margin:5px 0px;
+}
+
+.choose-option i{
+    margin-bottom:17px;
+    font-size:30px;
+}
+
+
+.choose-option h5{
+    margin-bottom:17px;
+    font-size:19px;
+}
+
+
+.hotels p{
+    text-align: left;
+}
+
+
+.hotel{
+    background-color:rgba(0, 255, 255, 0.295);
+    text-align: left;
+    padding:40px;
+    width:85%;
+    border-radius:8px;
+    position: relative;
+    margin-left:300px;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+.discount{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+padding: 40px 0px;
+}
+
+
+
+.discount h4{
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+.discount > p{
+    color: gray;
+    width:600px;
+    text-align: center;
+    margin:20px 0px;
+}
+
+
+.timing{
+    display: flex;
+    margin-top:20px;
+}
+
+
+.timing i{
+    color: var(--primary);
+    font-size:19px;
+}
+
+
+.timing > h6{
+    color: gray !important;
+    margin:2px 18px 2px 4px;
+    font-size: 12px;
+}
+
+
+.tour-information{
+    background-color: rgba(230, 218, 218, 0.938);
+    padding:30px 30px 30px 40px;
+    border-radius:8px;
+    width:400px;
+}
+
+.tour-information h5{
+    /* margin:20px 0px; */
+    font-size:20px;
+}
+
+.tour-information p{
+    color: rgba(83, 78, 78, 0.678);
+    margin:8px 0px;
+}
+
+.tour-information h6{
+    color: var(--primary);
+    margin-bottom:15px;
+}
+
+
+.tour-info{
+    background-image:url('./Images/Group\ 39.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:80px 40px 80px 700px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+
+
+.timin{
+    display: flex;
+    margin-top:20px;
+}
+
+
+.timin i{
+    color: var(--primary);
+    font-size:19px;
+}
+
+
+.timin > h6{
+    color: gray !important;
+    margin:2px 18px 2px 4px;
+    font-size: 12px;
+}
+
+.tour-inf{
+    background-image:url('./Images/Group\ 39.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:80px 40px 80px ;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+
+
+.tour-information{
+    background-color: rgba(230, 218, 218, 0.938);
+    padding:30px 30px 30px 40px;
+    border-radius:8px;
+    width:400px;
+}
+
+.tour-informatio h5{
+    /* margin:20px 0px; */
+    font-size:20px;
+}
+
+.tour-informatio p{
+    color: rgba(83, 78, 78, 0.678);
+    margin:8px 0px;
+}
+
+.tour-informatio h6{
+    color: var(--primary);
+    margin-bottom:15px;
+}
+
+.tour-informatio{
+    background-color: rgba(230, 218, 218, 0.938);
+    padding:30px 30px 30px 40px;
+    border-radius:8px;
+    width:400px;
+}
+
+
+
+.discount > .btn{
+    margin:40px 0px;
+}
+
+
+
+
+
+
+
+
+
+.perfect-place{
+    display: flex;
+    padding:40px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfect-place-left{
+    width:60%;
+    padding-right:30px;
+}
+
+.perfect-place-left h4{
+    font-size:29px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+}
+
+
+.perfect-place-left p{
+        color: rgba(83, 78, 78, 0.678);
+        margin:20px 0px;
+}
+
+.perfect-place-left ul{
+    margin-left:25px;
+}
+
+.perfect-place-left .btn{
+    margin-top:20px;
+}
+
+.video{
+    border-radius:10px;
+}
+
+
+.perfect-place-right{
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.newsletter{
+    display: flex;
+    padding:60px 0px;
+    justify-content: space-between;
+}
+
+.newsletter-left{
+    border:2px solid var(--primary);
+    border-radius:10px;
+    padding:30px;
+    width:40%;
+}
+
+.newsletter-left h5{
+    font-size: 19px;
+    margin:20px 0px;
+}
+
+.newsletter-left p{
+    width:400px;
+}
+
+.formi{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top:20px;
+}
+
+.formi input{
+    padding:10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #d5d2db;
+}
+
+.formi .btn{
+    background-color: var(--primary);
+}
+
+
+
+.newsletter-right{
+    background-image:url('./Images/Rectangle\ 8\ \(1\).png');
+    width:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:10px;
+
+}
+
+
+.news-info{
+    background-color: var(--primary);
+    width:200px;
+    padding:20px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius:10px;
+    position: relative;
+    right: -340px;
+    bottom: -178px;
+    rotate: -30deg;;
+}
+
+
+
