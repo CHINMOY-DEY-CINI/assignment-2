@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Roboto';
+}
+
+.hide{
+    display: none;
 }
 
 :root {
@@ -9,7 +16,7 @@
   }
 
 .container{
-    width:1200px;
+    width:80%;
     margin:0px auto;
 }
 
@@ -160,20 +167,23 @@
 .Tour-section{
     padding:80px 0px;
     display: flex;
-    align-items:center;
-    justify-content: center;
     gap:30px;
+    justify-content: space-between;
+    align-items: center;
+    /* width:1200px; */
 }
-
-.Tour-right img{
-    height:450px;
-}
-
 
 .Tour-left{
-    margin-right:20px;
+    /* width:700px; */
 }
 
+.Tour-right{
+    /* width:500px; */
+}
+
+/* .Tour-right img{
+    width:100%;
+} */
 
 .Tour-left h4{
     margin-bottom:20px;
@@ -187,6 +197,7 @@
 
 
 .Tour-left p{
+    width:95%;
     color:gray;
     margin-bottom:20px;
 }
@@ -201,6 +212,7 @@
 .Tour-left ul li{
     margin-bottom:20px;
     color:gray;
+    width:95%;
 }
 
 .btn{
@@ -239,9 +251,9 @@
 .countries{
     margin-top:20px;
     display: grid;
-    grid-template-areas:"bangladesh  bangladesh    bangladesh     bangladesh         Indonesia        Indonesia"
-                        "Srilanka    Srilanka      North-America  North-America     North-America    Kashmir"
-                        "Maldives   Maldives      Maldives      Bandarban            Bandarban      Bandarban";
+    grid-template-areas:"bangladesh  bangladesh         bangladesh         Indonesia        Indonesia"
+                        "Srilanka    Srilanka        North-America     North-America    Kashmir"
+                        "Maldives   Maldives      Maldives                  Bandarban      Bandarban";
     gap:10px;
     width:1200px;
 }
@@ -347,7 +359,8 @@
 .choose-option{
     display: grid;
     grid-template-columns:repeat(2 , 1fr);
-    gap:10px;
+    gap:20px;
+    width: 90%
 }
 
 
@@ -357,7 +370,7 @@
     padding:40px;
     width:85%;
     border-radius:8px;
-    margin:5px 0px;
+    margin:0px 0px;
 }
 
 .choose-option i{
@@ -400,7 +413,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-padding: 40px 0px;
+    padding: 40px 0px;
 }
 
 
@@ -552,7 +565,7 @@ padding: 40px 0px;
 }
 
 .perfect-place-left{
-    width:60%;
+    /* width:60%; */
     padding-right:30px;
 }
 
@@ -582,7 +595,7 @@ padding: 40px 0px;
 
 
 .perfect-place-right{
-    width: 45%;
+    /* width: 45%; */
 }
 
 
@@ -599,6 +612,7 @@ padding: 40px 0px;
     display: flex;
     padding:60px 0px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .newsletter-left{
@@ -647,7 +661,8 @@ padding: 40px 0px;
     background-position: center;
     background-repeat: no-repeat;
     border-radius:10px;
-
+    padding:166px 0px;
+    position: relative;
 }
 
 
@@ -659,9 +674,9 @@ padding: 40px 0px;
     align-items: center;
     flex-direction: column;
     border-radius:10px;
-    position: relative;
-    right: -340px;
-    bottom: -195px;
+    position: absolute;
+    right: -2px;
+    bottom: 56px;
     rotate: -30deg;;
 }
 
@@ -709,6 +724,194 @@ footer{
 .footer-last p{
     color: gray;
 }
+
+
+
+
+
+/* responsive */
+
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    .header{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding:20px 0px;
+        flex-direction: column;
+        width:400px;
+    }
+
+
+    .slider p{
+        width: 60%;
+    }
+
+    .option-finder{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+
+    .option-finder .find-btn{
+        width:300px;
+        padding:10px 0px;
+    }
+
+    .option-finder .input > input{
+        width:275px;
+    }
+
+    .option-finder .time #when{
+        width:300px;
+        
+    }
+
+    .option-finder #tipe{
+        width:300px;
+    }
+
+
+    .Tour-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .countries{
+        margin-top:20px;
+        display: grid;
+        grid-template-areas:"bangladesh bangladesh bangladesh bangladesh"
+                            "Indonesia Indonesia    Indonesia   Indonesia"
+                            "Srilanka  Srilanka   Srilanka    Srilanka "   
+                            "Maldives Maldives Maldives Maldives"   
+                            "North-America North-America North-America North-America"
+                            "Bandarban Bandarban Bandarban Bandarban"
+                            "Kashmir Kashmir Kashmir Kashmir";
+
+        gap:10px;
+        width:600px;
+    }
+
+
+    .choose-option{
+        display: grid;
+        grid-template-columns:repeat(1 , 1fr);
+        gap:10px;
+    }
+
+
+    .hotel{
+        background-color:rgba(0, 255, 255, 0.295);
+        text-align: left;
+        padding:40px;
+        border-radius:8px;
+        position: relative;
+        margin-left:0px;
+        margin-top:5px;
+    }
+    
+
+
+    .tour-info{        
+        padding:40px 40px 40px 40px;       
+    }
+
+
+    .tour-informatio{      
+        padding:40px 40px 40px 40px;        
+    }
+
+
+    .perfect-place{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .video{
+        margin-top: 25px;
+    }
+
+
+    .Destination p{
+        color: gray;
+        width:95%;
+        text-align: center;
+        margin:20px 0px;
+    }
+
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        /* width:400px; */
+    }
+
+    .newsletter-left p{
+        width:300px;
+        color: gray;
+    }
+
+    .newsletter-left{
+        border:2px solid var(--primary);
+        border-radius:10px;
+        padding:30px;
+        width:90%;
+    }
+
+    .newsletter-right{
+        width:50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius:10px;
+        padding:40% 26%;
+        position: relative;
+        border-radius:10px;
+        margin-top:20px;
+    }
+
+
+    .footer-middle{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .footer-middle p{
+        width:90%;
+        text-align: center;
+        color: gray;
+        margin-top:20px;
+    }
+
+
+    .choose-section > p{
+        color: gray;
+        width:95%;
+        text-align: center;
+        margin:20px 0px;
+    }
+
+    .discount > p{
+        color: gray;
+        width:90%;
+        text-align: center;
+        margin:20px 0px;
+    }
+    
+}
+
+
+
+
+
+
+
+
 
 
 
