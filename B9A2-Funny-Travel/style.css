@@ -792,7 +792,7 @@ footer{
                             "Kashmir Kashmir Kashmir Kashmir";
 
         gap:10px;
-        width:600px;
+        width:500px;
     }
 
 
@@ -816,12 +816,21 @@ footer{
 
 
     .tour-info{        
-        padding:40px 40px 40px 40px;       
+        padding:90px 5px 20px 5px;       
+    }
+
+    .tour-inf{
+        padding:90px 5px 20px 5px; 
     }
 
 
     .tour-informatio{      
-        padding:40px 40px 40px 40px;        
+        padding:30px 30px 30px 30px;     
+        margin-left:10px;   
+    }
+    .tour-information{      
+        padding:30px 30px 30px 30px;     
+        margin-left:10px;   
     }
 
 
